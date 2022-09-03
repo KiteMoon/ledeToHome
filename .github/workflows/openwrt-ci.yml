@@ -77,9 +77,7 @@ jobs:
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
           CONFIG_PACKAGE_nginx=y
-          CONFIG_PACKAGE_nginx-util=y
-          CONFIG_PACKAGE_luci-theme-argon=y
-          CONFIG_PACKAGE_luci-theme-argon-mod=y
+
 
           EOF
 
