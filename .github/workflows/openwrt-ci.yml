@@ -77,7 +77,8 @@ jobs:
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
           CONFIG_PACKAGE_nginx=y
-
+          CONFIG_TARGET_KERNEL_PARTSIZE=32
+          CONFIG_TARGET_ROOTFS_PARTSIZE=16384
 
           EOF
 
