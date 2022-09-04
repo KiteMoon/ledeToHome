@@ -77,8 +77,6 @@ jobs:
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
           CONFIG_PACKAGE_luci-nginx=y
-          CONFIG_PACKAGE_luci-app-docker=y
-          CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
           EOF
 
           #
